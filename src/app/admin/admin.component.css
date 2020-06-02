@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+h1{
+  margin-left: 10%;
+}
+table{
+  border-collapse: collapse;
+  margin:auto;
+
+}
+table,th,td{
+  border: 1px solid rgb(185, 183, 183);
+  height: 35px;
+  padding-left: 7px;
+}
+.id{
+  width: 40px;
+}
+.name, .username, .email, .website{
+  width: 250px;
+}
+
+

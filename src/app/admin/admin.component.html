@@ -1,0 +1,22 @@
+<h1>Users List</h1>
+<table>
+  <tr>
+    <th class="id">ID</th>
+    <th class="name">Name</th>
+    <th class="username">Username</th>
+    <th class="email">Email</th>
+    <th class="website">Website</th>
+  </tr>
+
+  <tr *ngFor="let user of tables | async"  >
+    <td class="id">{{user.id}}    </td>
+    <td class="name">{{ user.name }}</td>
+    <td class="username">{{ user.username }}</td>
+    <td class="email">{{ user.email}}</td>
+    <td class="website">{{ user.website }}</td>
+  </tr>
+
+</table>
+
+<!-- [routerLink]="['/tables',userId]" -->
+<!-- -->

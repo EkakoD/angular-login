@@ -1,0 +1,56 @@
+table{
+  position: relative;
+  width: 30%;
+  height: 500px;
+  margin: 5% auto;
+  /* background-color:grey; */
+  background-image: url(../image/background.jpeg);
+  background-size: 500px;
+}
+.forId{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: brown;
+  font-size: 17px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top:-10px;
+  left:-10px;
+}
+.forFirstLetter{
+  width:140px;
+  height: 140px;
+  border-radius:70px;
+  border:1.5px solid white;
+  background-color: blue;
+  font-size: 60px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+.forName{
+  margin:30px auto;
+  font-size: 40px;
+}
+.forMail{
+  margin:auto;
+  font-size:15px;
+}
+table th{
+  display: block;
+  margin: auto;
+  color:white;
+}
+nav{
+  height: 40px;
+  background-color: grey;
+  border:1px solid white;
+  float: inline-end;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 113px;
+}
