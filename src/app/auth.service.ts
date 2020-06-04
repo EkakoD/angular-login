@@ -22,6 +22,6 @@ export class AuthService {
     return this.http.get('https://jsonplaceholder.typicode.com/users');
   }
   getUser(){
-    return this.http.get('https://jsonplaceholder.typicode.com/users/id');
+    return this.http.get('https://jsonplaceholder.typicode.com/users');
   }
 }

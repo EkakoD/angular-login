@@ -32,7 +32,7 @@ table{
   margin-top: 60px;
 }
 .forName{
-  margin:30px auto;
+  /* margin:10px auto; */
   font-size: 40px;
 }
 .forMail{
@@ -46,6 +46,7 @@ table th{
 }
 nav{
   height: 40px;
+  position: absolute;
   background-color: grey;
   border:1px solid white;
   float: inline-end;

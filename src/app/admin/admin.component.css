@@ -11,6 +11,7 @@ table,th,td{
   border: 1px solid rgb(185, 183, 183);
   height: 35px;
   padding-left: 7px;
+  cursor: pointer;
 }
 .id{
   width: 40px;

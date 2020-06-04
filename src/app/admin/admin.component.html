@@ -13,10 +13,12 @@
     <td class="name">{{ user.name }}</td>
     <td class="username">{{ user.username }}</td>
     <td class="email">{{ user.email}}</td>
-    <td class="website">{{ user.website }}</td>
+    <td class="website">{{ user.website }} </td>
+     <td><button [routerLink]="['/detile-page/',user.id]">Detile Page </button></td>
   </tr>
 
 </table>
+
 
 <!-- [routerLink]="['/tables',userId]" -->
 <!-- -->

@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DetilePageComponent } from './detile-page/detile-page.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,8 +23,9 @@ import { DetilePageComponent } from './detile-page/detile-page.component';
     ReactiveFormsModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      { path: 'tables/:userId', component: DetilePageComponent }
-    ])
+      { path: 'detile-page/:id', component: DetilePageComponent }
+    ]),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

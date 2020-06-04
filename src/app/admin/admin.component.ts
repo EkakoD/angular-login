@@ -17,13 +17,5 @@ export class AdminComponent implements OnInit {
   ngOnInit() {
     this.tables = this.authService.getTables();
   }
-  goDetails(){
-    this.router.navigateByUrl('/detile-page');
-  }
-
-  // logout(){
-  //   this.authService.logout();
-  //   this.router.navigateByUrl('/login');
-  // }
 
 }
